@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+:root{
+    --cor-fundo: #88F252;
+    --cor-titulo: #361E04;
+    --cor-paragrafo:#163607;
+    --cor-link:	#be29ec;
+    --fonte: Playball;
+    --fonte2: Fredoka One;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    }
+
+.coluna-16 {
+     width: 15%;
+    }
+
+.linha1{
+    display: flex;
+    flex-flow: row wrap;
+}
+.coluna-17 {
+    width: 15%;
+   }
+
+body {
+    background-color: var(--cor-fundo);
+    font-family:var(--fonte);
+    width: 800px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    font-family:var(--fonte)
+}
+
+p {
+    color:var(--cor-paragrafo);
+    font-family:var(--fonte2) 
+}
+
+div.imagem {
+    text-align: center;
+}
